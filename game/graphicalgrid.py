@@ -1,4 +1,5 @@
-from cellgrid import CellGrid
+from .cellgrid import CellGrid
+
 
 class GraphicalGrid(CellGrid):
     def __init__(self, cols_count, rows_count, cell_width, canvas):
@@ -16,12 +17,12 @@ class GraphicalGrid(CellGrid):
             self.canvas.delete(self.old_rects[cell])
             del self.old_rects[cell]
         for (i, j) in cells_to_draw:
-            rect = self.canvas.create_rectangle(i * (self.cell_width + 1) + 2, 
-                                         j * (self.cell_width + 1) + 2, 
-                                         (i + 1) * (self.cell_width + 1), 
-                                         (j + 1) * (self.cell_width + 1), 
-                                         fill = "black")
+            rect = self.canvas.create_rectangle(i * (self.cell_width + 1) + 2,
+                                                j * (self.cell_width + 1) + 2,
+                                                (i + 1) * (self.cell_width + 1),
+                                                (j + 1) * (self.cell_width + 1),
+                                                fill="black")
             self.old_rects[(i, j)] = rect
-                                         
+
     def update(self):
         super().update()

@@ -1,4 +1,5 @@
-from graphicalgrid import GraphicalGrid
+from .graphicalgrid import GraphicalGrid
+
 
 class Game():
     def __init__(self, cols_count, rows_count, cell_width, canvas):
