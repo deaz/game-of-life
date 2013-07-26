@@ -5,12 +5,11 @@ class CellGrid:
     def __init__(self, cols_count, rows_count, cells=[]):
         self.cells = [[(random.randrange(2) == 1) for i in range(rows_count)] for i in range(cols_count)]
 
-        self.cells = cells
-        self.cells[1][0] = True
-        self.cells[2][1] = True
-        self.cells[0][2] = True
-        self.cells[1][2] = True
-        self.cells[2][2] = True
+        # self.cells[1][0] = True
+        # self.cells[2][1] = True
+        # self.cells[0][2] = True
+        # self.cells[1][2] = True
+        # self.cells[2][2] = True
 
         self.cells_to_check = {(i, j) for i in range(cols_count) for j in range(rows_count)}
         self.cols_count = cols_count
