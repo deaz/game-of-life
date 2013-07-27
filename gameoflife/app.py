@@ -1,18 +1,20 @@
 import tkinter as tk
+from multiprocessing import Process
+from .graphicalgrid import BufferEmpty
 from .game import Game
-
-CELL_WIDTH = 5
-COLS_COUNT = 100
-ROWS_COUNT = 100
-started = False
 
 
 class App(tk.Tk):
+    CELL_WIDTH = 5
+    COLS_COUNT = 100
+    ROWS_COUNT = 100
+    DRAW_DELAY = 100
+
     def __init__(self):
         super().__init__()
 
-        canvas_width = COLS_COUNT * (1 + CELL_WIDTH) + 1
-        canvas_height = ROWS_COUNT * (1 + CELL_WIDTH) + 1
+        canvas_width = App.COLS_COUNT * (1+App.CELL_WIDTH) + 1
+        canvas_height = App.ROWS_COUNT * (1+App.CELL_WIDTH) + 1
 
         controlsFrame = tk.Frame(self, width=150)
         canvasFrame = tk.Frame(self, width=canvas_width, height=canvas_height)
@@ -27,21 +29,33 @@ class App(tk.Tk):
         stop_button = tk.Button(controlsFrame, text="Stop", command=self._stop)
         stop_button.pack(fill="x")
 
-        self.game = Game(COLS_COUNT, ROWS_COUNT, CELL_WIDTH, canvas)
+        self.game = Game(App.COLS_COUNT, App.ROWS_COUNT, App.CELL_WIDTH, canvas)
 
+        updating_process = Process(target=self._update)
+        updating_process.daemon = True
+        updating_process.start()
         self._started = True
-        self._update()
+        self._draw_id = self.after(0, self._draw)
 
     def _update(self):
-        self.game.update()
-        self.game.draw()
-        if self._started:
-            self.after(100, self._update)
+        while True:
+            self.game.update()
+
+    def _draw(self):
+        try:
+            self.game.draw()
+        except BufferEmpty:
+            if self._started:
+                self._draw_id = self.after(10, self._draw)
+        else:
+            if self._started:
+                self._draw_id = self.after(App.DRAW_DELAY, self._draw)
 
     def _start(self):
         if not self._started:
             self._started = True
-            self._update()
+            self._draw_id = self.after(0, self._draw)
 
     def _stop(self):
         self._started = False
+        self.after_cancel(self._draw_id)
