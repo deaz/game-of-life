@@ -4,7 +4,7 @@ from .cellgrid import CellGrid
 
 
 class GraphicalGrid(CellGrid):
-    MAX_BUFFER_SIZE = 3
+    MAX_BUFFER_SIZE = 5
 
     def __init__(self, cols_count, rows_count, cell_width, canvas):
         super().__init__(cols_count, rows_count)

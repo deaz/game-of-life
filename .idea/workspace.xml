@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6ada641a-d778-40b5-8d0a-21f2f5a9164a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/app.py" afterPath="$PROJECT_DIR$/gameoflife/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/game.py" afterPath="$PROJECT_DIR$/gameoflife/game.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" afterPath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="game-of-life.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +15,7 @@
     <file path="/run.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374850666780" ignored="false" />
     <file path="/gameoflife.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374849627913" ignored="false" />
     <file path="/__init__.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374848657926" ignored="false" />
-    <file path="/app.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374905673956" ignored="false" />
+    <file path="/app.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374906960910" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameoflife/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="31" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.47976878">
+            <state line="38" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphicalgrid.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="graphicalgrid.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="36" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+            <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.1734104">
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -101,9 +101,9 @@
         <option value="$PROJECT_DIR$/game/__init__.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/gameoflife/cellgrid.py" />
-        <option value="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
         <option value="$PROJECT_DIR$/gameoflife/game.py" />
         <option value="$PROJECT_DIR$/gameoflife/app.py" />
+        <option value="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
       </list>
     </option>
   </component>
@@ -377,14 +377,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="25" width="1686" height="955" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25887394" sideWeight="0.6720099" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25887394" sideWeight="0.6720099" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -457,18 +457,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/gameoflife/app.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/gameoflife/app.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="11" />
     </breakpoint-manager>
   </component>
@@ -520,13 +508,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameoflife/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/cellgrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="69" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.80254775">
@@ -555,15 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="36" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.2/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1026" column="0" selection-start="41704" selection-end="41704" vertical-scroll-proportion="0.2947977">
@@ -571,11 +543,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gameoflife/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.47976878">
+        <state line="38" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.1734104">
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -31,37 +31,31 @@ class App(tk.Tk):
 
         self.game = Game(App.COLS_COUNT, App.ROWS_COUNT, App.CELL_WIDTH, canvas)
 
-        self._started = True
-        self._buffer_empty = True
-        # self.bind('<<Updated>>', self._draw)
         updating_process = Process(target=self._update)
         updating_process.daemon = True
         updating_process.start()
-        self._draw()
-        # self.event_generate('<<Updated>>', when='tail')
+        self._started = True
+        self._draw_id = self.after(0, self._draw)
 
     def _update(self):
         while True:
             self.game.update()
-            if self._buffer_empty:
-                self._buffer_empty = False
-                # self.event_generate('<<Updated>>', when='tail')
-                # self.update()
 
     def _draw(self):
         try:
             self.game.draw()
         except BufferEmpty:
-            self._buffer_empty = True
-            self.after(10, self._draw)
+            if self._started:
+                self._draw_id = self.after(10, self._draw)
         else:
             if self._started:
-                self.after(App.DRAW_DELAY, self._draw)
+                self._draw_id = self.after(App.DRAW_DELAY, self._draw)
 
     def _start(self):
         if not self._started:
             self._started = True
-            self._draw()
+            self._draw_id = self.after(0, self._draw)
 
     def _stop(self):
         self._started = False
+        self.after_cancel(self._draw_id)
