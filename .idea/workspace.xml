@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ada641a-d778-40b5-8d0a-21f2f5a9164a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/app.py" afterPath="$PROJECT_DIR$/gameoflife/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" afterPath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="game-of-life.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374853514681" ignored="false" />
     <file path="/game.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374901429063" ignored="false" />
     <file path="/cellgrid.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374846413686" ignored="false" />
-    <file path="/graphicalgrid.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374900445472" ignored="false" />
+    <file path="/graphicalgrid.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374908390717" ignored="false" />
     <file path="/run.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374850666780" ignored="false" />
     <file path="/gameoflife.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374849627913" ignored="false" />
     <file path="/__init__.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374848657926" ignored="false" />
@@ -50,6 +48,9 @@
             <state line="38" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+                <marker date="1374906987482" expanded="true" signature="138:1943" placeholder="..." />
+                <marker date="1374906987482" expanded="true" signature="1733:1850" placeholder="..." />
+                <marker date="1374906987482" expanded="true" signature="1872:1943" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -58,7 +59,7 @@
       <file leaf-file-name="graphicalgrid.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.1734104">
+            <state line="9" column="14" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2601156">
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -480,6 +481,9 @@
         <state line="16" column="22" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+            <marker date="1374906987482" expanded="true" signature="138:1943" placeholder="..." />
+            <marker date="1374906987482" expanded="true" signature="1733:1850" placeholder="..." />
+            <marker date="1374906987482" expanded="true" signature="1872:1943" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -555,13 +559,16 @@
         <state line="38" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+            <marker date="1374906987482" expanded="true" signature="138:1943" placeholder="..." />
+            <marker date="1374906987482" expanded="true" signature="1733:1850" placeholder="..." />
+            <marker date="1374906987482" expanded="true" signature="1872:1943" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.1734104">
+        <state line="9" column="14" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2601156">
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
