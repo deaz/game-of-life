@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ada641a-d778-40b5-8d0a-21f2f5a9164a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameoflife/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/cellgrid.py" afterPath="$PROJECT_DIR$/gameoflife/cellgrid.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/game.py" afterPath="$PROJECT_DIR$/gameoflife/game.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/gameoflife.py" afterPath="$PROJECT_DIR$/gameoflife/app.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/graphicalgrid.py" afterPath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/app.py" afterPath="$PROJECT_DIR$/gameoflife/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/game.py" afterPath="$PROJECT_DIR$/gameoflife/game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" afterPath="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
     </list>
     <ignored path="game-of-life.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374850443637" ignored="false" />
-    <file path="/game.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374846258554" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374853514681" ignored="false" />
+    <file path="/game.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374901429063" ignored="false" />
     <file path="/cellgrid.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374846413686" ignored="false" />
-    <file path="/graphicalgrid.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374846485045" ignored="false" />
+    <file path="/graphicalgrid.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374900445472" ignored="false" />
     <file path="/run.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374850666780" ignored="false" />
     <file path="/gameoflife.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374849627913" ignored="false" />
     <file path="/__init__.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374848657926" ignored="false" />
-    <file path="/app.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374850876127" ignored="false" />
+    <file path="/app.py" changelist="6ada641a-d778-40b5-8d0a-21f2f5a9164a" time="1374905673956" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +38,7 @@
       <file leaf-file-name="game.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameoflife/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +47,7 @@
       <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameoflife/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.17374517">
+            <state line="48" column="31" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.47976878">
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -60,11 +55,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cellgrid.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gameoflife/cellgrid.py">
+      <file leaf-file-name="graphicalgrid.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="28" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="23" column="36" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +69,7 @@
       <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,8 +100,10 @@
         <option value="$PROJECT_DIR$/game/gameoflife.py" />
         <option value="$PROJECT_DIR$/game/__init__.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/gameoflife/app.py" />
         <option value="$PROJECT_DIR$/gameoflife/cellgrid.py" />
+        <option value="$PROJECT_DIR$/gameoflife/graphicalgrid.py" />
+        <option value="$PROJECT_DIR$/gameoflife/game.py" />
+        <option value="$PROJECT_DIR$/gameoflife/app.py" />
       </list>
     </option>
   </component>
@@ -113,6 +112,47 @@
     <option name="y" value="25" />
     <option name="width" value="1686" />
     <option name="height" value="955" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,10 +218,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/run.py" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run.py" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -267,7 +319,9 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -276,6 +330,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6ada641a-d778-40b5-8d0a-21f2f5a9164a" name="Default" comment="" />
@@ -284,24 +355,44 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="25" width="1686" height="955" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25581396" sideWeight="0.67077684" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25887394" sideWeight="0.6720099" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32799014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -365,16 +456,23 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/gameoflife/app.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/gameoflife/app.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gameoflife/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -422,16 +520,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameoflife_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="63" selection-end="63" vertical-scroll-proportion="0.05732484" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
@@ -439,37 +527,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gameoflife/cellgrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="69" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.80254775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.80477226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameoflife/graphicalgrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="36" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python3.2/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1776" column="0" selection-start="72893" selection-end="72893" vertical-scroll-proportion="0.33204633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameoflife/cellgrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="28" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
+        <state line="1026" column="0" selection-start="41704" selection-end="41704" vertical-scroll-proportion="0.2947977">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gameoflife/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.17374517">
+        <state line="48" column="31" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.47976878">
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

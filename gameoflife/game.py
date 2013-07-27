@@ -17,10 +17,10 @@ class Game():
     def _draw_grid(self):
         for i in range(self.rows_count + 1):
             self.canvas.create_line(0, i * (self.cell_width + 1) + 1, 
-                                    self.canvas_width, i * (self.cell_width + 1) + 1, fill="red")
+                                    self.canvas_width, i * (self.cell_width+1) + 1, fill="red")
         for i in range(self.cols_count + 1):
-            self.canvas.create_line(i * (self.cell_width + 1) + 1, 0, 
-                                    i * (self.cell_width + 1) + 1, self.canvas_height + 1, fill="red")
+            self.canvas.create_line(i * (self.cell_width+1) + 1, 0,
+                                    i * (self.cell_width+1) + 1, self.canvas_height + 1, fill="red")
                                     
     def draw(self):
         self.cell_grid.draw()
