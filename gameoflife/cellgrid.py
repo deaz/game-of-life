@@ -18,7 +18,6 @@ class CellGrid:
 
     def _count_neighbour_cells(self, cell):
         count = 0
-        # neighbours = self._get_neighbours(cell)
         x, y = cell
         for i in range(x - 1, x + 2):
             for j in range(y - 1, y + 2):
@@ -55,5 +54,4 @@ class CellGrid:
         self.cells_to_check = new_cells_to_check
 
     def get_alive_cells(self):
-        # TODO: set -> tuple
         return {(i, j) for i in range(self.cols_count) for j in range(self.rows_count) if self.cells[i][j]}
