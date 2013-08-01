@@ -5,6 +5,7 @@ class CellGrid:
     def __init__(self, cols_count, rows_count, cells=[]):
         self.cells = [[(random.randrange(2) == 1) for i in range(rows_count)] for i in range(cols_count)]
 
+        # self.cells = [[False for i in range(rows_count)] for i in range(cols_count)]
         # self.cells[1][0] = True
         # self.cells[2][1] = True
         # self.cells[0][2] = True
@@ -17,10 +18,12 @@ class CellGrid:
 
     def _count_neighbour_cells(self, cell):
         count = 0
-        neighbours = self._get_neighbours(cell)
-        for (i, j) in neighbours:
-            if self.cells[i % self.cols_count][j % self.rows_count]:
-                count += 1
+        # neighbours = self._get_neighbours(cell)
+        x, y = cell
+        for i in range(x - 1, x + 2):
+            for j in range(y - 1, y + 2):
+                if (i != x or j != y) and self.cells[i % self.cols_count][j % self.rows_count]:
+                    count += 1
         return count
 
     def _get_neighbours(self, cell):
@@ -52,4 +55,5 @@ class CellGrid:
         self.cells_to_check = new_cells_to_check
 
     def get_alive_cells(self):
+        # TODO: set -> tuple
         return {(i, j) for i in range(self.cols_count) for j in range(self.rows_count) if self.cells[i][j]}

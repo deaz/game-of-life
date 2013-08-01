@@ -1,11 +1,12 @@
 import tkinter as tk
-from multiprocessing import Process
+from multiprocessing import Process, Event
 from .graphicalgrid import BufferEmpty
 from .game import Game
-
+import cProfile
+event = Event()
 
 class App(tk.Tk):
-    CELL_WIDTH = 5
+    CELL_WIDTH = 1
     COLS_COUNT = 100
     ROWS_COUNT = 100
     DRAW_DELAY = 100
@@ -38,8 +39,9 @@ class App(tk.Tk):
         self._draw_id = self.after(0, self._draw)
 
     def _update(self):
-        while True:
-            self.game.update()
+        cProfile.runctx('while not event.is_set(): self.game.update()', globals(), locals(), '/home/ivan/prof.prof')
+        # while True:
+        #     self.game.update()
 
     def _draw(self):
         try:
@@ -57,5 +59,6 @@ class App(tk.Tk):
             self._draw_id = self.after(0, self._draw)
 
     def _stop(self):
+        event.set()
         self._started = False
         self.after_cancel(self._draw_id)

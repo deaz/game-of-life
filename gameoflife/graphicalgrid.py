@@ -21,10 +21,11 @@ class GraphicalGrid(CellGrid):
             self.canvas.delete(self.old_rects[cell])
             del self.old_rects[cell]
         for (i, j) in cells_to_draw:
-            rect = self.canvas.create_rectangle(i * (self.cell_width+1) + 2,
-                                                j * (self.cell_width+1) + 2,
-                                                (i+1) * (self.cell_width+1),
-                                                (j+1) * (self.cell_width+1),
+            cell_width = (self.cell_width + 1)
+            rect = self.canvas.create_rectangle(i * cell_width + 2,
+                                                j * cell_width + 2,
+                                                (i+1) * cell_width,
+                                                (j+1) * cell_width,
                                                 fill="black")
             self.old_rects[(i, j)] = rect
 
